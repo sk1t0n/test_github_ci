@@ -21,6 +21,9 @@ jobs:
       - name: Clone repo
         uses: actions/checkout@v2
 
+      - name: Install dependencies
+        run: npm install
+
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
