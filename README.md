@@ -1,5 +1,8 @@
 # test_github_ci
 
+Status of last testing:<br>
+<img src="https://github.com/sk1t0n/test_github_ci/workflows/Vue.js-CI/badge.svg?branch=master"><br>
+
 ## Project setup
 ```
 yarn install
